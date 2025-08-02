@@ -72,11 +72,13 @@
             border-radius: 25px;
             text-decoration: none;
             font-weight: 600;
-            transition: transform 0.3s;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
         }
         
         .btn-start:hover {
             transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
         }
         
         /* Hero Section */
@@ -221,11 +223,13 @@
             display: inline-block;
             transition: all 0.3s;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            border: 2px solid transparent;
         }
         
         .cta-hero:hover {
             transform: translateY(-3px);
             box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+            border-color: white;
         }
         
         /* Features Section */
@@ -445,6 +449,7 @@
         
         .pricing-cta:hover {
             transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
         }
         
         /* FAQ Section */
@@ -709,7 +714,7 @@
                         <li>관계 유형 진단</li>
                         <li>5분 챗봇 연습</li>
                     </ul>
-                    <a href="#" class="pricing-cta">무료로 시작</a>
+                    <a href="#" class="pricing-cta" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">무료로 시작</a>
                 </div>
                 <div class="pricing-card featured">
                     <h3>프리미엄</h3>
@@ -733,7 +738,7 @@
                         <li>우선 고객 지원</li>
                         <li>신규 기능 먼저 체험</li>
                     </ul>
-                    <a href="#" class="pricing-cta">59% 할인</a>
+                    <a href="#" class="pricing-cta" style="background: #ff4757; color: white;">59% 할인</a>
                 </div>
             </div>
             
@@ -756,7 +761,7 @@
                             <li>성장 포인트 발견</li>
                             <li>새출발 가이드</li>
                         </ul>
-                        <a href="#" class="pricing-cta">구매하기</a>
+                        <a href="#" class="pricing-cta" style="background: #5f27cd; color: white;">구매하기</a>
                     </div>
                     <div class="pricing-card">
                         <h3>💕 고백 성공</h3>
@@ -767,7 +772,7 @@
                             <li>타이밍 분석</li>
                             <li>실패 시 피드백</li>
                         </ul>
-                        <a href="#" class="pricing-cta">구매하기</a>
+                        <a href="#" class="pricing-cta" style="background: #ff6b6b; color: white;">구매하기</a>
                     </div>
                     <div class="pricing-card">
                         <h3>💑 커플 패키지</h3>
@@ -778,7 +783,7 @@
                             <li>서로 바꿔보기</li>
                             <li>1개월 무제한</li>
                         </ul>
-                        <a href="#" class="pricing-cta">구매하기</a>
+                        <a href="#" class="pricing-cta" style="background: #48dbfb; color: white;">구매하기</a>
                     </div>
                 </div>
                 
